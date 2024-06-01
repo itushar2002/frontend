@@ -1,0 +1,33 @@
+.shopcategory {
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 5vw;
+}
+.shopcategory-indexsort {
+  display: flex;
+  justify-content: space-between;
+}
+.shopcategory-products {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8vh;
+  justify-content: center;
+}
+.shopcategory-sort {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border: 1px solid black;
+  color: black;
+  border-radius: 50px;
+  gap: 1vh;
+  cursor: pointer;
+}
+.shopcategory-indexsort p {
+  font-size: 24px;
+}
+.shopcategory-indexsort p span {
+  font-weight: 800;
+}

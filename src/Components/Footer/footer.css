@@ -1,0 +1,37 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+}
+
+.logo h1 {
+  font-size: 2vw;
+  color: #111;
+}
+.logo h1 span {
+  color: red;
+  font-size: 2.5vw;
+}
+.footer-links {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  list-style: none;
+  color: #333;
+  font-size: 1.2vw;
+}
+.footer-links li {
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  gap: 3vw;
+  align-items: center;
+  color: #333;
+  margin-top: 2vh;
+  cursor: pointer;
+}

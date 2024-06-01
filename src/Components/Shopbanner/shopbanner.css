@@ -1,0 +1,46 @@
+.shop-hero {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  justify-content: center;
+}
+.shop-banner {
+  display: flex;
+  height: 70vh;
+  width: 90%;
+  /* background-color: black; */
+}
+.shop-banner .left {
+  height: 100%;
+  width: 50%;
+  background-image: url(../Assets/fashion-model.avif);
+  background-size: cover;
+  background-position: center;
+}
+.shop-banner .right {
+  height: 100%;
+  width: 50%;
+  /*  background-color: rosybrown; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right h1 {
+  font-size: 3vw;
+}
+.right button {
+  font-size: 2.5vh;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 5px 5px 10px #000;
+  padding: 14px 34px;
+  border: none;
+  outline: none;
+  background-color: #d2a77c;
+  margin-top: 2vh;
+}
+.right button:hover {
+  scale: 1.25;
+  transition: all ease-in-out 0.3s;
+}

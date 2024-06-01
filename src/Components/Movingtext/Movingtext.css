@@ -1,0 +1,26 @@
+.movingtext {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+::-webkit-scrollbar {
+    display: none !important;
+}
+.movingtext h1 {
+  font-size: 8vw;
+  display: inline-block;
+  color: #000;
+  text-transform: uppercase;
+}
+.container {
+  white-space: nowrap;
+  display: inline-block;
+  animation: move-anim 8s linear 0.1s infinite;
+}
+@keyframes move-anim {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
